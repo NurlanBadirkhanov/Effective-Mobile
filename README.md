@@ -1,9 +1,9 @@
 # Effective-Mobile
 
-🌐 Available languages: [English](README.en.md) | [Русский](README.ru.md)
+🌐 Languages: [English](README.en.md) | [Русский](README.ru.md) | [Azərbaycan](README.az.md)
 
 ---
 
-This repository contains a demo Android application showcasing **Clean Architecture + MVVM**, Hilt DI, Coroutines/Flow, Retrofit/Moshi networking, and modular project structure.
+This repository contains a demo Android application built with **Clean Architecture + MVVM**, Hilt DI, Coroutines/Flow, Retrofit/Moshi, and modular project structure.
 
-👉 Choose your preferred language above to read full documentation.
+👉 Select your language above to read full documentation.
