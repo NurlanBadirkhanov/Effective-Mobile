@@ -15,6 +15,7 @@ This repository contains a demo Android application built with:
 - **Local data:** SharedPreferences (easily replaceable with DataStore/Room)  
 - **Images:** Glide  
 - **Code quality:** Detekt/ktlint, Gradle Kotlin DSL  
+- **Design principles:** SOLID (especially SRP and DIP are clearly applied)  
 
 ---
 
