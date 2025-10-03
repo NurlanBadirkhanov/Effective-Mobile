@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_graph"
+    app:startDestination="@id/auth_graph">
+
+    <navigation
+        android:id="@+id/auth_graph"
+        app:startDestination="@id/signUpFragment">
+
+        <fragment
+            android:id="@+id/signInFragment"
+            android:name="com.effective.effectivemobile.ui.login.SignInFragment"
+            android:label="Sign In"
+            tools:layout="@layout/fragment_sign_in" />
+
+        <fragment
+            android:id="@+id/signUpFragment"
+            android:name="com.effective.effectivemobile.ui.login.SignUpFragment"
+            android:label="Sign Up"
+            tools:layout="@layout/fragment_sign_up" >
+            <action
+                android:id="@+id/action_signUp_to_signIn"
+                app:destination="@id/signInFragment" />
+        </fragment>
+    </navigation>
+
+    <navigation
+        android:id="@+id/main_graph"
+        app:startDestination="@id/nav_home">
+
+        <fragment
+            android:id="@+id/nav_home"
+            android:name="com.effective.effectivemobile.ui.home.HomeFragment"
+            android:label="@string/title_home"
+            tools:layout="@layout/fragment_home" />
+
+        <fragment
+            android:id="@+id/nav_profile"
+            android:name="com.effective.effectivemobile.ui.profile.ProfileFragment"
+            android:label="fragment_profile"
+            tools:layout="@layout/fragment_profile" />
+
+        <fragment
+            android:id="@+id/nav_favorite"
+            android:name="com.effective.effectivemobile.ui.favorites.FavoriteFragments"
+            android:label="fragment_favorite"
+            tools:layout="@layout/fragment_favorite" />
+
+
+    </navigation>
+
+
+</navigation>
