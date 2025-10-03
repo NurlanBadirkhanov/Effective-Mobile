@@ -117,13 +117,14 @@
 
 ## 📸 Скриншоты
 
-| Home | Catalog | Favorites |
+| Login | Home | Profile |
 |------|---------|-----------|
-| ![Home](docs/screens/1.jpeg) | ![Catalog](docs/screens/3.jpeg) | ![Favorites](docs/screens/2.jpeg) |
+| ![Login](1.jpeg) | ![Home](3.jpeg) | ![Profile](2.jpeg) |
 
-| Login | Favorites (alt) | Profile |
-|-------|-----------------|---------|
-| ![Login](docs/screens/4.jpeg) | ![FavAlt](docs/screens/5.jpeg) | ![Profile](docs/screens/2.jpeg) |
+| Login | Favorite |
+|-------|---------|
+| ![Login](4.jpeg) | ![Favorite](5.jpeg) |
+
 
 ---
 
